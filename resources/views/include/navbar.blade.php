@@ -14,7 +14,7 @@
                     <a class="nav-link text-nav" href="#">Caracteristicas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav" href="#">Iniciar Sesión</a>
+                    <a class="nav-link text-nav" href="/login">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-nav btn btn-register" href="#">Registrarte</a>
