@@ -21,3 +21,14 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('dashboard', 'BrandController@index');
 Route::get('api/brands/{id}', 'BrandController@show');
+//MORE INFORMATION VIEW
+Route::get('/information', function(){
+    return view('pages.information');
+}); 
+Route::get('/brand-register', function () {
+    return view('pages.brand-register');
+});
+
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
+});
