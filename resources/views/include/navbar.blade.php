@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand text-logo" href="/">UBRAND</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -14,10 +14,10 @@
                     <a class="nav-link text-nav" href="#">Caracteristicas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav" href="/login">Iniciar Sesión</a>
+                    <a class="nav-link text-nav" href="/dashboard">Mis brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav btn btn-register" href="/register">Registrarte</a>
+                    <a class="nav-link text-nav btn btn-register" href="/profile">Mi perfil</a>
                 </li>
             </ul>
         </div>

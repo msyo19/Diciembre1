@@ -18,7 +18,7 @@
                 <div class="card-body">
                 <h5 class="card-title">{{ $brand->name }}</h5>
                     <p class="card-text">{{ $brand->description }} </p>
-                    <a href="#" class="card-link">More information</a>
+                    <a href="/brand/1" class="card-link">More information</a>
                 </div>
             </div>
         </div>
