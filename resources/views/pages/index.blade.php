@@ -2,6 +2,12 @@
 @section('title', 'Inicio')
 @section('content') 
 
-Hola mundo
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <h1>UBRAND</h1>
+        </div>
+    </div>
+</div>
 
 @endsection
