@@ -32,3 +32,12 @@ body {
     color: #ffffff;
     background-color: #120038;
 }
+.landing-page {
+    color: #ffffff;
+    background-image: url('/img/banners/banner.jpg');
+    height: 90vh;
+    width: 100%;
+}
+.landing-text {
+    padding-top: 100px; 
+}

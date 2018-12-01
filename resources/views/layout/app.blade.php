@@ -23,9 +23,9 @@
 <body>
 
     @include('include.navbar')
-    <div class="container-fluid">
+    
         @yield('content')
-    </div>
+    
     @include('include.footer')
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
