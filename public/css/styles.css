@@ -1,0 +1,34 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text-logo {
+    font-weight: 700;
+}
+.text-nav {
+    font-weight: 700;
+}
+.btn-register {
+    color: #ffffff!important;
+    background-color: #2a37b3;
+    border-radius: 10px;
+}
+.text-darkblue {
+    color: #120038
+}
+.text-lightblue {
+    color: #2a37b3;
+}
+.text-white {
+    color: #ffffff;
+}
+.footer-color {
+    color: #ffffff;
+    background-color: #120038;
+}
