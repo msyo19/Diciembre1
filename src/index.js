@@ -7,7 +7,7 @@ let ventanaPrincipal;
 
 app.on('ready',() => {
     ventanaPrincipal = new BrowserWindow({
-        frame:false
+        frame:true
     });
     ventanaPrincipal.loadURL(`file://`+__dirname+`/vista/index.html`);
 });
