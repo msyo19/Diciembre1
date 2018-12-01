@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/msyo19/Diciembre1/issues"
   },
-  "homepage": "https://github.com/msyo19/Diciembre1#readme"
+  "homepage": "https://github.com/msyo19/Diciembre1#readme",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  }
 }
