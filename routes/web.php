@@ -24,3 +24,8 @@ Route::get('api/brands/{id}', 'BrandController@show');
 Route::get('/dashboard', function () {
     return view('pages.dashboard');
 });
+//MORE INFORMATION VIEW
+Route::get('/information', function(){
+    return view('pages.information');
+}); 
+
