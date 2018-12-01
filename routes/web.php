@@ -19,6 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
 Route::get('api/brands', 'BrandController@index');
 Route::get('api/brands/{id}', 'BrandController@show');
+Route::get('/dashboard', function () {
+    return view('pages.dashboard');
+});

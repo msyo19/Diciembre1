@@ -2,6 +2,5 @@
 @section('title', 'Inicio')
 @section('content') 
 
-Hola mundo
-
+home
 @endsection
