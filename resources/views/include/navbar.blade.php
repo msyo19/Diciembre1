@@ -17,7 +17,7 @@
                     <a class="nav-link text-nav" href="/login">Iniciar Sesión</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav btn btn-register" href="#">Registrarte</a>
+                    <a class="nav-link text-nav btn btn-register" href="/register">Registrarte</a>
                 </li>
             </ul>
         </div>
