@@ -28,6 +28,7 @@
     </div>
     @include('include.footer')
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="js/ajax.js"></script>
     <script src="js/javascript.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
