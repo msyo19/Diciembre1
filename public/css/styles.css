@@ -8,6 +8,9 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.card {
+    box-shadow: 0 2px 4px rgba(3, 27, 78, .1);
+}
 .text-logo {
     font-weight: 700;
 }

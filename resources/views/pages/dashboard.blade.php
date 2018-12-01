@@ -1,30 +1,42 @@
 @extends('layout.app')
 @section('title', 'Inicio')
-@section('content') 
+@section('content')
 
 <!--PONER RUTA DE LAS BRANDS-->
-<h1>BRANDS</h1>
-
+<br>
 <div class="container">
-    <div class="row" id="contenedor">
-        <div class="col-md-3">
-            <div class="card border-primary mb-3" style="max-width: 25rem;">
-                <a href="/brands/new">ADD +</a>
-            </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <h1 class="text-logo">BRANDS</h1>
         </div>
-        @foreach($brands as $brand)
-        <div class="col-md-3">
-            <div class="card border-primary mb-3" style="max-width: 25rem;">
+        <div class="col-sm-12 col-md-6">
+            <a href="/brands/new" class="btn btn-register">+ Añadir</a>
+        </div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <div class="card">
                 <div class="card-body">
-                <h5 class="card-title">{{ $brand->name }}</h5>
-                    <p class="card-text">{{ $brand->description }} </p>
-                    <a href="/brand/1" class="card-link">More information</a>
+                    <h5 class="card-title text-logo">DigitalMedia</h5>
+                    <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                    <a href="/brand/1" class="btn btn-register">Ver Más</a>
                 </div>
             </div>
         </div>
-        @endforeach
-    </div>
-
+        <div class="col-sm-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-logo">SafeWalk</h5>
+                    <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                    </p>
+                    <a href="/brand/1" class="btn btn-register">Ver Más</a>
+                </div>
+            </div>
+        </div>
+    </div><br>
 </div>
 
 @endsection

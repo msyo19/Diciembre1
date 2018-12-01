@@ -14,10 +14,10 @@
                     <a class="nav-link text-nav" href="#">Caracteristicas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav" href="/dashboard">Mis brands</a>
+                    <a class="nav-link text-nav" href="/dashboard">Mis Brands</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-nav btn btn-register" href="/profile">Mi perfil</a>
+                    <a class="nav-link text-nav btn btn-register" href="/profile">Mi Perfíl</a>
                 </li>
             </ul>
         </div>
