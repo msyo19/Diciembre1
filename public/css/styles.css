@@ -14,10 +14,22 @@ body {
 .text-nav {
     font-weight: 700;
 }
+.btn {
+    border-radius: 10px;
+    font-weight: 700;
+}
 .btn-register {
     color: #ffffff!important;
     background-color: #2a37b3;
-    border-radius: 10px;
+}
+.btn-landing-page {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #ffffff;
+}
+.btn-landing-page:hover {
+    color: #2a37b3;
+    background-color: #ffffff;
 }
 .text-darkblue {
     color: #120038
@@ -34,10 +46,22 @@ body {
 }
 .landing-page {
     color: #ffffff;
-    background-image: url('/img/banners/banner.jpg');
+    /*background-image: url('/img/banners/banner.jpg');*/
+    background: #120038;
+    background: -webkit-linear-gradient(to right, #2a37b3, #120038);
+    background: linear-gradient(to right, #2a37b3, #120038);
     height: 90vh;
     width: 100%;
 }
 .landing-text {
-    padding-top: 100px; 
+    padding-top: 150px; 
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-page {
+        background-image: none;
+        background: #120038;
+        background: -webkit-linear-gradient(to right, #2a37b3, #120038);
+        background: linear-gradient(to right, #2a37b3, #120038);
+    }
 }
