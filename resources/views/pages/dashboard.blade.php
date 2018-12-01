@@ -7,10 +7,9 @@
 
 <div class="container">
     <div class="row" id="contenedor">
-        
+    
     </div>
 
 </div>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="js/ajax.js"></script>
+
 @endsection

@@ -13,7 +13,7 @@ function CreacionBrand() {
     if(hola != null){
         for (let i = 0; i < hola.length; i++) {
             var plantillaBrand = `
-        <div class="col-sm">
+        <div class="col-md-3">
         <div class="card border-primary mb-3" style="max-width: 25rem;">
             <div class="card-body">
                 <h5 class="card-title">${hola[i].name}</h5>
