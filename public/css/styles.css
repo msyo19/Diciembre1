@@ -1,6 +1,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
+    background-color: #f3f5f9;
 }
 .navbar {
     background-color: #ffffff;
@@ -24,6 +25,9 @@ body {
 .btn-register {
     color: #ffffff!important;
     background-color: #2a37b3;
+}
+.btn-register:hover {
+    background-color: #120038;
 }
 .btn-landing-page {
     color: #ffffff;

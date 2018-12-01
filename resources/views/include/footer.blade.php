@@ -1,4 +1,4 @@
-<footer class="footer-color fixed-bottom">
+<footer class="footer-color">
     <div class="container">
         <br>
         <span>Place sticky footer content here.</span>
