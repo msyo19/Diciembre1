@@ -37,7 +37,7 @@
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
 
-                <button type="submit" class="btn btn-register">Submit</button>
+                <button type="submit" class="btn btn-register">Guardar</button>
             </form>
         </div>
     </div><br>

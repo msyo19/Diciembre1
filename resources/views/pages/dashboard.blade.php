@@ -19,7 +19,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-logo">Digital Media</h5>
                     <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Una agencia de marketing digital.
                     </p>
                     <a href="/brand/1" class="btn btn-register">Ver Más</a>
                 </div>
@@ -30,7 +30,7 @@
                 <div class="card-body">
                     <h5 class="card-title text-logo">FoodXYZ</h5>
                     <p class="card-text">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Aplicación de rating de comida.
                     </p>
                     <a href="/brand/1" class="btn btn-register">Ver Más</a>
                 </div>
