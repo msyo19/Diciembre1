@@ -1,39 +1,82 @@
 @extends('layout.app')
 @section('title', 'Inicio')
 @section('content') 
-<!--IMAGE SECTION-->
-<section>
-<img src="" alt="">
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-      <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny headline</h1>
-        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-        <div class="row bootom">
-            <div class="col-ms">
-                <h4>Descarga</h4>
-            </div>
-            <div class="col-ms">
-                <a class="btn btn-outline-primary" href="#">PDF</a>        
-            </div>
-            <div class="col-ms">
-                <a class="btn btn-outline-primary" href="#">.docx</a>        
+
+<div class="container"><br>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <a href="/dashboard" class="text-logo">< Regresar</a>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            <h1 class="text-logo">Digital Media</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <h2 class="text-logo">Colores</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title">
+                        COLORES
+                    </div>
+                    <img class="img-fluid" src="https://piktochart.com/wp-content/uploads/2017/09/22-800x281.jpg" width="500px" alt="">
+                </div>
             </div>
         </div>
-      </div>
-    </div>
-</section>
-<!--INFO SECTION-->
-<section>
-    <div class="container text-justify">
-        <h2>Empresa</h2>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-    </div>
-</section>
-<!--COLORS SECTION-->
-<section>
 
-</section>
+        <div class="col-sm-12 col-md-6">
+            <h2 class="text-logo">Template</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title text-logo">
+                        Material Design
+                    </div>
+                    <img  class="img-fluid" src="https://storage.googleapis.com/spec-host-backup/mio-material%2Fassets%2F1n0USi3jGBT9CHS9YH-1x7L0grDc_MToO%2Fgm-2x1-large.png" width="500px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-12 col-md-6">
+            <h2 class="text-logo">Imagenes</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-title text-logo">
+                        Pexel
+                    </div>
+                    <img class="img-fluid" src="https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?auto=compress&cs=tinysrgb&h=650&w=940" width="245px" alt="">
+                    <img class="img-fluid" src="https://images.pexels.com/photos/1549003/pexels-photo-1549003.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" width="245px" alt="">
+                    <img class="img-fluid" src="https://images.pexels.com/photos/6168/hands-woman-laptop-notebook.jpg?auto=compress&cs=tinysrgb&h=650&w=940" width="245px" alt="">
+                    <img class="img-fluid" src="https://images.pexels.com/photos/955447/pexels-photo-955447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" width="245px" alt="">
+                </div>
+                <div class="card-footer">
+                    <a href="https://www.pexels.com/search/digital%20media/" class="btn btn-register">Ver Más Imágenes en Pexel</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <h2 class="text-logo">Herramientas</h2>
+            <div class="card">
+                <div class="card-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">Google Analytics</li>
+                        <li class="list-group-item">Google My Business</li>
+                        <li class="list-group-item">Google Trends</li>
+                        <li class="list-group-item">MailChimp</li>
+                        <li class="list-group-item">Instagram Business</li>
+                        <li class="list-group-item">FontAwesome</li>
+                        <li class="list-group-item">Pexel</li>
+                        <li class="list-group-item">Flaticon</li>
+                        <li class="list-group-item">Facebook Business</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+</div>
 
 @endsection
