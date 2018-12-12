@@ -1,14 +1,15 @@
+
 @extends('layout.app')
 @section('title', 'Inicio')
 @section('content') 
-<!--IMAGE SECTION-->
 <section>
 <img src="" alt="">
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
       <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny headline</h1>
+        <h1 class="display-4 font-weight-normal">Save Money</h1>
         <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple's marketing pages.</p>
-        <div class="row bootom">
+        <br>
+        <div class="row bootom justify-content-center">
             <div class="col-ms">
                 <h4>Descarga</h4>
             </div>
@@ -32,6 +33,7 @@
     </div>
 </section>
 <!--COLORS SECTION-->
+<br>
 <section>
     <div class="container">
         <h2>Colors</h2>
@@ -40,14 +42,14 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="row text-center container">
-                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#FFB920">
-                                Color
+                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#05B22D">
+                                #05B22D
                             </div>
-                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#FF2F2A">
-                                Color
+                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#27FF59">
+                                #27FF59
                             </div>
-                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#FF7900">
-                                Color
+                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#004EFF">
+                                #004EFF
                             </div>
                         </div>
                     </div>
@@ -63,13 +65,13 @@
                     <div class="col-12">
                         <div class="row text-center container">
                             <div class="col-4 p-3 mb-2 text-white" style="background-color:#12C200">
-                                Azul
+                                #12C200
                             </div>
-                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#7623FF">
-                                Verde
+                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#54FFDE">
+                                #54FFDE
                             </div>
-                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#C2724E">
-                                 Gris
+                            <div class="col-4 p-3 mb-2 text-white" style="background-color:#0E9AFF">
+                               #0E9AFF  
                             </div>
                         </div>
                     </div>
@@ -83,5 +85,3 @@
         </div>
     </div>
 </section>
-
-@endsection

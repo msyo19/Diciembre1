@@ -29,6 +29,13 @@ Route::get('/dashboard', function () {
 Route::get('/information', function(){
     return view('pages.information');
 }); 
+Route::get('/information2', function(){
+    return view('pages.information2');
+}); 
+Route::get('/hospital', function(){
+    return view('pages.hospital');
+}); 
+
 
 Route::get('/brand-register', function () {
     return view('pages.brand-register');
